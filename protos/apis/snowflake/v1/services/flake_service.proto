@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package snowflake.v1.services;
+
+option go_package = "github.com/prettykingking/snowflake/genproto/apis/snowflake/v1/services";
+
+import "snowflake/v1/resources/flake.proto";
+
+service FlakeService {
+  rpc GetFlake(GetFlakeRequest) returns (snowflake.v1.resources.Flake) {}
+}
+
+message GetFlakeRequest {}

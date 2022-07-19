@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package snowflake.v1.resources;
+
+option go_package = "github.com/prettykingking/snowflake/genproto/apis/snowflake/v1/resources";
+
+message Flake {
+  // Generated 64 bit integer ID.
+  uint64 id_int = 1;
+
+  // Base32Hex encoded ID with Little Endian.
+  string id_hex = 2;
+}

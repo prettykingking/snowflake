@@ -1,0 +1,16 @@
+# Server configuration file in TOML
+# For TOML syntax, see https://toml.io/en/.
+
+# gRPC server
+[server]
+port = 50051
+
+[logging]
+# DEBUG, INFO, WARN, ERROR
+level = "DEBUG"
+
+[settings]
+# Chinese New Year, must be less than current time
+startTime = "2022-02-01T00:00:00Z"
+# 0 - 65535
+machineId = 0

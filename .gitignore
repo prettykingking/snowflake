@@ -1,0 +1,6 @@
+# idea
+.idea/
+
+# project specific
+dist/
+snowflake.toml

@@ -1,0 +1,5 @@
+= Release Notes
+
+== 0.3.0 (2022-06-17)
+
+* Change byte order to little-endian
