@@ -59,6 +59,14 @@ protos/apis/snowflake/v1/services/*
 For demo usage of client, see `pkg/snowflake/snowflake_test.go`.
 
 
+== See also
+
+There are sequence id generation implementations, but without time component.
+
+* https://github.com/baidu/uid-generator[UID Generator] - From Baidu
+* https://github.com/Meituan-Dianping/Leaf[Leaf] - From Meituan
+* https://github.com/didi/tinyid[TinyID] - From DiDi
+
 == License
 
 The MIT License (MIT)
